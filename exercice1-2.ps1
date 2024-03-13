@@ -6,4 +6,4 @@
 #==========================================================
 # Afficher les svchost
 
-Get-process -ProcessName svchost
+Get-process -ProcessName svchost | Format-table "id", "processName"
